@@ -1,0 +1,33 @@
+/* reset.css */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {margin:0;padding:0;border:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;}
+h1,h2,h3,h4,h5,h6{font-weight:bold;}
+body {line-height:1.5em;}
+table {border-collapse:separate;border-spacing:0;}
+caption, th, td {text-align:left;font-weight:normal;}
+table, td, th {vertical-align:middle;}
+blockquote:before, blockquote:after, q:before, q:after {content:"";}
+blockquote, q {quotes:"" "";}
+a img {border:none;}
+li{list-style:none;}
+a img{border:none;}
+a:link{color:#333;}
+a:visited{color:#333;}
+a:active,a:hover{color:#C60;}
+a.white{color:#fff;text-decoration:none;}
+a.white:link{color:#fff;}
+a.white:visited{color:#fff;}
+a.white:hover{color:#fff;text-decoration:underline;}
+p{text-align:justify;text-justify:inter-ideograph;}
+/* img{ display:block;} */
+input{padding:0;margin:0;}
+
+/* typography.css */
+body {font-size:12px;color:#222;background:#fff;font-family:"ËÎÌו", Arial, Helvetica, sans-serif;background-color:#CCC;}
+
+/* grid.css */
+.container {width:960px;margin:0 auto;background-color:#fff;}
+
+.clearfix:after, .container:after {content:"\0020";display:block;height:0;clear:both;visibility:hidden;overflow:hidden;}
+.clearfix, .container {display:block;}
+.clear {clear:both;}
+	

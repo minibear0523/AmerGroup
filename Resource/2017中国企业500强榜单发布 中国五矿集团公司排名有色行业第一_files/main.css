@@ -1,0 +1,121 @@
+/* head */
+
+#tip{background-color:#666;border-bottom:1px #999 solid;height:24px;line-height:24px;padding:0 1em;color:#fff;}
+	#tip span{padding-left:1em;}
+	#tipLeft{float:left;width:500px;}
+	#tipRight{float:right;width:360px;text-align:right;}
+#header{height:110px;border-bottom:1px solid #ccc;}
+	#headerLeft{float:left;width:310px;}
+		#headerLeft img{margin:16px 0 0 20px;}
+	#headerRight{float:right;width:620px;}
+		#TopSearch{margin-top:40px;}
+		#TopSearch tr td{padding-left:1em;}
+		
+input.normalBtn{font-size:12px;padding:2px 1em;}
+input.normalTxt{font-size:14px;height:20px;padding-top:4px;margin-bottom:2px;border:1px solid #ccc;}
+select{font-size:12px;padding:0.1em 0;}
+		
+/* Content */
+#MainLeft{float:left;width:220px;background-color:#EAEEF7;}
+#MainRight{float:right;width:740px;background-color:#fff;}
+
+#ToolInMainLeft{margin:1em;}
+    #ToolInMainLeft p{text-align:center;}
+h3.Tool{font-size:14px;text-align:center;font-weight:bold;padding:1em 0;}
+#LoginTable{margin-bottom:1em;}
+#LoginTable tr td{height:30px;line-height:40px;text-align:center;}
+.rb1,.rb2{height:25px;color:#fff;font-size:14px; background:#d32c47;width:80px;line-height:22px;border-left:1px solid #fff; border-top:1px solid #fff; border-right:1px solid #6a6a6a; border-bottom:1px solid #6a6a6a; cursor:pointer;}
+.rb2{background:#C71E3A;}
+#hotWords{background-color:#FFFFEF;padding:1em;}
+	#hotWords ul{overflow:auto; zoom:1;}
+	#hotWords ul li{float:left;width:56px;margin:0.2em 0; text-align:center;}
+
+#NavInMainRight{height:34px;line-height:34px;font-size:14px;background-color:#EFEFEF;padding-left:1em;}
+	#NavInMainRight a{padding:0 1em;text-decoration:none; border-right:1px solid #666;font-weight:bold;}
+	#NavInMainRight a.last{border-right:none;}
+#MainIn{margin:3em;}
+p.MainHelp{font-size:14px;font-weight:bold;padding-bottom:0.2em;text-align:right;}
+	p.MainHelp span{background:url(../images/help.png) no-repeat 2px;padding-left:24px;}
+#IntroduceIt{padding:2em;border:1px solid #ccc;}
+	#IntroduceIt p{text-indent:2em;line-height:160%;padding:0.4em;}
+
+.DBInfo{background-color:#eee;padding:1.2em;margin:1.6em 0;}
+	h1.InfoH1{font-size:1.3em;font-weight:bold;color:#039;}
+	    h1.InfoH1 a{color:#039;}
+		h1.InfoH1 span{font-size:12px;font-weight:normal;padding-left:2em;}
+	ul.InfoUL{padding-top:1em;overflow:auto;zoom:1;}
+		ul.InfoUL li{font-size:14px;float:left;width:120px;text-align:center;border-right:1px dotted #666;margin:0.2em 0;}
+		ul.InfoUL li.first{font-weight:bold;color:#036;border-right:none; background-color:#C2D1E9;}
+	.DBInfo p{padding-top:1em;font-size:14px;line-height:22px;text-indent:2em;}
+
+/* Content */
+#sortH1{font-weight:bold;font-size:20px;color:#039;}
+h3.aSearch{background-color:#666;font-size:14px;font-weight:bold;height:30px;line-height:30px;padding:0 1em;color:#fff;}
+h3.aSearch span{font-size:12px;padding-left:2em;}
+#AdvanSearch{border:1px solid #ccc;padding:1em; background-color:#ffc;}
+	#AdvanSearch table tr td{height:30px;line-height:30px;}
+	#flexTool{ cursor:pointer;}
+
+#rowTop1{margin-top:1em;}	
+	#rowTop1 h3{font-size:14px;}
+	#rowTop1 h3 span{font-size:12px;padding-left:2em;}
+#rowTop2{border-top:2px solid #999; background-color:#EAEEF7;height:30;line-height:30px;padding:0 1em;}
+	#rowTop2 label{font-weight:bold;}
+	#rowTop2 span strong{color:red;}
+#rowTop3{height:30px;line-height:30px;padding:0 1em; background-color:#FFC;}
+
+.ListResult{padding:1em;overflow:hidden;}
+	.ListResult li{padding:0.6em;font-size:14px;line-height:170%;}
+	.ListResult li a{color:#1041A0;}
+	.ListResult li span{font-size:12px; color:#9a9a9a; margin-left:8px}
+	.ListResult li p{text-indent:2em;}
+	
+#ChoeseDate{display:none;}
+	
+/* footer */
+#footer{background-color:#666;height:30px;line-height:30px;text-align:center;color:#fff;}
+#copyright p{text-align:center;line-height:4em;}
+
+/* News */
+#newsContent{padding:10px;background-color:#F3F8FC;margin-top:10px;}
+	#newsContent h1{font-size:22px;text-align:center;line-height:30px;}
+	#newsContent h2{font-size:16px;text-align:center;line-height:30px;}
+	#newsContent #newsInfo{border-bottom:1px solid #B0CEE6;text-align:center;height:30px;line-height:30px;}
+	#newsContent #proglogue{padding:20px;border:1px solid #eee;background-color:#fff;margin-top:10px;font-size:14px;line-height:24px;text-align:justify;}
+		#newsContent #proglogue span{color:#333;font-weight:bold;}
+	#newsContent #content{padding:10px;font-size:14px;line-height:26px;text-align:justify;overflow:hidden;}
+	    #newsContent #content table{ table-layout:fixed;width:560px;}
+	    #newsContent #content font{font-size:12px;}
+		#newsContent #content p{font-size:14px;line-height:26px;text-align:justify;padding-bottom:20px;}
+
+	#newsContent #newsLinks{padding:10px;}
+		#newsContent #newsLinks h5{font-size:12px;padding-left:16px;height:20px;border-bottom:1px solid #ccc;}
+		#newsContent #newsLinks h5 span{padding-left:20px;}
+	#newsContent #contentFoot{text-align:left;}
+		#newsContent #contentFoot img{padding:0 10px;}
+.customul{border-bottom:1px dotted #ccc;padding:10px 0;}
+    .customul li{line-height:150%;font-size:14px;padding-left:6px;background: url(../images/bullet1.jpg) no-repeat 0 10px;padding-left:10px;}
+    .customul li a{text-decoration:underline;}
+    
+/* Login */
+#Login{padding:4em;text-align:center;}
+    #Login h1{font-size:1.6em;margin-bottom:1em;}
+    #Login h4{font-size:1.2em;padding:1em;}
+    #Login h3{font-size:1.3em;line-height:1.6em;}
+#PlzReg{padding-left:2em;font-size:1.4em;font-weight:bold;}
+    #PlzReg a{color:Red;}
+    
+/* reg */
+.formtable {width:620px;border:1px #99BBE8 solid; background-color:#D7E0F2;}
+.formtable td {background-color:#fff;padding-top:4px;padding-bottom:4px;padding-left:10px;text-align:left;}
+.formtable td h5{text-align:right;padding-right:10px;font-size:12px;color:#000;padding-left:30px;font-weight:normal;line-height:30px;}
+.formtable td input{font-size:12px;height:20px;}
+.formtable td input[type="text"] {font-size:14px;border:1px solid #AFCAED;padding-top:4px;}
+.formtable td img{ vertical-align:middle;}
+.limitInput{ime-mode:disabled;}
+.putin {text-align:center;margin:6px 0; border:1px #99BBE8 solid; background-color:#E9F0F8;padding:10px;}
+.btn1 {height:26px;width:100px;line-height:16px;font-size:14px;margin-right:10px;}
+
+/* GOOGLE search */
+#cse input[type=text]{height:20px;padding-top:4px;}
+h5.Fuzzy{font-size:1.2em;line-height:3em;}
